@@ -1,12 +1,10 @@
 ---Program recognizes when one word is equal to another word.---
 * Program counts one each each time one word is equal to one other word.
-    **Behavior** Will return 1 if words are equal.
     Word to find: "hat"
     Input string: "hat"
     Count: 1
 
-    **Behavior**
-    Program will return 0 if words are not equal.
+* Program will return 0 if words are not equal.
     Word to find: "kumbaya"
     Input string: "banana"
     Count: 0
@@ -27,7 +25,7 @@
     Input string: "Mold started to grow"
     Count: 1
 
---- program is able to recognize a match with punctuation following word.---
+--- Program is able to recognize a match with punctuation following word.---
     Word to find: "boop"
     Input string: "Once there was a Blue Boop. A boop so big it would just boop, boop, boop on the mansion."
     Count: 5

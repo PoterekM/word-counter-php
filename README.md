@@ -47,8 +47,8 @@ _In order to copy this directory to your computer locally:_
 * Silex
 * CSS
 * Bootstrap
-## Support and contact details
 
+## Support and contact details
 _Please feel free to contact me directly via e-mail at poterekm@gmail.com if you have any questions, comments, ideas, or feedback. Also, I invite you to feel empowered to make any changes to this repository by forking it and making changes accordingly._
 
 
