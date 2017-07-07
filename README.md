@@ -11,7 +11,7 @@ _This project allows a user to find out how frequently a word of choice appears 
 
 #### Specifications and Behavior Driven Development
 <p align="center">
-  ![Minion-ified Behavior Driven Development](web/img/BDD.png)
+  ![Minion-ified Behavior Driven Development](img/BDD.png)
 </p>
 
 ## Setup/Installation Requirements
@@ -34,9 +34,9 @@ _In order to copy this directory to your computer locally:_
 ## Project Preview
 
 **Home Page**
-![Input Page](web/img/input.png)
+![Input Page](img/input.png)
 **Display page**
-![Input Page](web/img/output.png)
+![Input Page](img/output.png)
 
 
 ## Technologies Used
