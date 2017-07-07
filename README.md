@@ -35,9 +35,9 @@ _In order to copy this directory to your computer locally:_
 ## Project Preview
 
 **Home Page**
-![Input Page](img/input.png)
+![Input Page](img/Input.png)
 **Display page**
-![Input Page](img/output.png)
+![Input Page](img/Output.png)
 
 
 ## Technologies Used
