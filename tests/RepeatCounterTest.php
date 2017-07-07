@@ -16,6 +16,22 @@
         //assert
         $this->assertEquals(1, $result);
         }
+        function testOneMatchStringRepeatCounter()
+        {
+        //Arrange
+        $test_matching_word = new RepeatCounter;
+        $input = "boop";
+        $input_string = "boop beep";
+
+        //Act
+        $result = $test_matching_word->countRepeats($input, $input_string);
+
+        //assert
+        $this->assertEquals(1, $result);
+        }
+
+
+
     }
 
 ?>

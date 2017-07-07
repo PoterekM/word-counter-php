@@ -3,11 +3,19 @@
     {
         function countRepeats($input, $input_string)
         {
+            $split_input_string = explode(" ", $input_string);
+            // $split_array = array();
             $count = 0;
-            if ($input == $input_string) {
-                $count++;
-                return $count;
+
+            foreach ($split_input_string as $word) {
+                // array_push($split_array, $word);
+                if ($input == $word) {
+                    $count++;
+                    return $count;
+                }
             }
+
+
 
         }
 

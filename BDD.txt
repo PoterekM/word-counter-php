@@ -7,7 +7,8 @@
     Input string: "hat"
     Count: 1
 
-    **Behavior** Program will return 0 if words are not equal.
+    **Behavior**
+    Program will return 0 if words are not equal.
     Word to find: "kumbaya"
     Input string: "banana"
     Count: 0
