@@ -1,3 +1,19 @@
 body {
     background-image: url(/../img/sheep.jpg);
 }
+
+h1 {
+    text-align: center;
+}
+
+.display {
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(242, 242, 242, 0.5);
+}
+
+.well {
+    background: rgba(242, 242, 242, 0.5);
+}
