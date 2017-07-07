@@ -65,7 +65,7 @@
             $result = $test_matching_word->countRepeats($input, $input_string);
 
             //assert
-            $this->assertEquals(4, $result);
+            $this->assertEquals(5, $result);
 
 
         }

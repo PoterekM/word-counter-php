@@ -33,3 +33,8 @@
     Word to find: "boop"
     Input string: "Once there was a Blue Boop. A boop so big it would just boop, boop, boop on the mansion."
     Count: 5
+
+--- Program is able to require both a word to find and an input string ---
+    Word to find: ""
+    Input String: ""
+    Output: (notification on page that field is required)

@@ -11,7 +11,6 @@
             }
             $split_input_string = explode(" ", $input_string);
 
-
             $count = 0;
             foreach ($split_input_string as $word) {
                 if ($input == $word) {
@@ -20,8 +19,6 @@
             }
             return $count;
         }
-
-
 
     }
 
