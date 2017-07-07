@@ -5,7 +5,7 @@
         {
             $input = strtolower($input);
             $input_string = strtolower($input_string);
-            $characters_to_split_on = array(' ', '#', '.', ',', '!', '?', ';', ':', '#', '()', '&');
+            $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
             foreach($characters_to_split_on as $space){
                 $input_string = str_replace($space," ",$input_string);
             }
