@@ -28,3 +28,8 @@
     Word to find: "mold"
     Input string: "Mold started to grow"
     Count: 1
+
+--- program is able to recognize a match with punctuation following word.---
+    Word to find: "boop"
+    Input string: "Once there was a Blue Boop. A boop so big it would just boop, boop, boop on the mansion."
+    Count: 5
