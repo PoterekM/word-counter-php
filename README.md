@@ -10,9 +10,9 @@ _This project allows a user to find out how frequently a word of choice appears 
 
 
 #### Specifications and Behavior Driven Development
-![Input Page](web/img/BDD.png)
-
-
+<p align="center">
+  ![Minion-ified Behavior Driven Development](web/img/BDD.png)
+</p>
 
 ## Setup/Installation Requirements
 _In order to copy this directory to your computer locally:_

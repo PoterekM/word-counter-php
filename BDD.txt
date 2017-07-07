@@ -1,5 +1,3 @@
-
-
 ---Program recognizes when one word is equal to another word.---
 * Program counts one each each time one word is equal to one other word.
     **Behavior** Will return 1 if words are equal.
