@@ -1,0 +1,31 @@
+
+
+---Program recognizes when one word is equal to another word.---
+* Program counts one each each time one word is equal to another word.
+    **Behavior** Will return 1 if words are equal.
+    Word to find: "hat"
+    Input string: "hat"
+    Count: 1
+
+    **Behavior** Program will return 0 if words are not equal.
+    Word to find: "kumbaya"
+    Input string: "banana"
+    Count: 0
+
+---Program recognizes when word matches another word in a string---
+* Program counts each time the word to find matches the input string.
+    Word to find: "blue"
+    Input string: "The blue sky makes me blue"
+    Count: 2
+
+---Program does not count partial matches---
+    Word to find: "blue"
+    Input string: "I had a dream that my dog was playing the blues and then tried eating a blueberry."
+    Count: 0
+
+--- Program is able to recognize a match regardless of capitalization.---
+    Word to find: "mold"
+    Input string: "Mold started to grow"
+    Count: 1
+
+    
