@@ -12,8 +12,14 @@ h1 {
 
 .jumbotron {
     background: rgba(242, 242, 242, 0.5);
+    text-align: center;
 }
 
 .well {
     background: rgba(242, 242, 242, 0.5);
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
 }
