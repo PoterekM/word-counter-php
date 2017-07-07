@@ -60,7 +60,7 @@
             //Arrange
             $test_matching_word = new RepeatCounter;
             $input = "booP";
-            $input_string = "one !BOOP! beep two !BoOp. BEEP red !booP. beep blue !boop. beep";
+            $input_string = "one !BOOP! beep two !BoOp. BEEP red !booP. beep blue !boop. beep it's like totally #boop";
             //Act
             $result = $test_matching_word->countRepeats($input, $input_string);
 
