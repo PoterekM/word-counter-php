@@ -1,7 +1,7 @@
 
 
 ---Program recognizes when one word is equal to another word.---
-* Program counts one each each time one word is equal to another word.
+* Program counts one each each time one word is equal to one other word.
     **Behavior** Will return 1 if words are equal.
     Word to find: "hat"
     Input string: "hat"
@@ -27,5 +27,3 @@
     Word to find: "mold"
     Input string: "Mold started to grow"
     Count: 1
-
-    
