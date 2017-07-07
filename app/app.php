@@ -12,5 +12,11 @@
         return $app['twig']->render('form.html.twig');
     });
 
+    $app->get("/result", function() use ($app) {
+    $my_input = new RepeatCounter;
+    $my_repeat_counter = $my_input->countRepeats($_GET['word'], $_GET['phrase']);
+    return $app['twig']->render('view_count.html.twig', array('count' => $my_repeat_counter));
+    });
+
     return $app;
 ?>
