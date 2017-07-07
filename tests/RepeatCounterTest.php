@@ -1,5 +1,4 @@
 <?php
-
     require_once "src/RepeatCounter.php";
 
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
@@ -8,18 +7,15 @@
         {
         //Arrange
         $test_matching_word = new RepeatCounter;
-        $input = ("boop");
-
+        $input = "boop";
+        $input_string = "boop";
 
         //Act
-        $result = $test_matching_word->countRepeats($input);
+        $result = $test_matching_word->countRepeats($input, $input_string);
 
         //assert
         $this->assertEquals(1, $result);
-
-
         }
-
     }
 
 ?>

@@ -5,7 +5,7 @@
         {
             $count = 0;
             if ($input == $input_string) {
-                $count = $count ++;
+                $count++;
                 return $count;
             }
 
