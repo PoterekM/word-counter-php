@@ -4,10 +4,13 @@
     Input string: "hat"
     Count: 1
 
+    Reason: It's one of the most basic components and guidelines to the MVP. I know I want my program to return a number at the very end so if I do this I won't have to mess with mixing result data types or pushing to an array or counting over an array or a string. I'm not the sharpest and keeping track of adding over an array vs a string frightens and confuses me a bit. It would be more to keep track of so if I can get my program counting out of the way first that would be neat.
+
 * Program will return 0 if words are not equal.
     Word to find: "kumbaya"
-    Input string: "banana"
+    Input string: "bananas"
     Count: 0
+    Reason: making sure that program is not counting based on string length.
 
 ---Program recognizes when word matches another word in a string---
 * Program counts each time the word to find matches the input string.
@@ -15,22 +18,29 @@
     Input string: "The blue sky makes me blue"
     Count: 2
 
+    Reason: One of the most basic rules of the program. This will have me split the second user input based on spaces..
+
 ---Program does not count partial matches---
     Word to find: "blue"
     Input string: "I had a dream that my dog was playing the blues and then tried eating a blueberry."
     Count: 0
+    Reason: this is more a supplementary test to the test above. If the word is not split on a space (or as we will see later, common punctuation) it will not be recognized as being equal to input word.
 
 --- Program is able to recognize a match regardless of capitalization.---
     Word to find: "mold"
     Input string: "Mold started to grow"
     Count: 1
+    Reason: Input and output will be sent to lower-case. Unfortunately, this will mean that you won't be able to test for Dawn when it's a story about how much she likes waking up at dawn and be able to have the program differentiate between noun vs proper noun.
 
 --- Program is able to recognize a match with punctuation following word.---
     Word to find: "boop"
     Input string: "Once there was a Blue Boop. A boop so big it would just boop, boop, boop on the mansion."
     Count: 5
+    Reason: if I can split on a space I am able to split input based on a space I should be able to manipulate that in order to separate words as well. Eventually we can link to Trump ipsum and have some fun with testing how often he uses the same word.
+    (If you're curious: http://trumpipsum.net/)
 
 --- Program is able to require both a word to find and an input string ---
-    Word to find: ""
-    Input String: ""
+    Word to find: " "
+    Input String: " "
     Output: (notification on page that field is required)
+    Reason: For all of the rebels who like to try to muck up the rules, they will be thwarted by the page not allowing them to continue.
