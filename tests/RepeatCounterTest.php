@@ -52,5 +52,15 @@
 
             $this->assertEquals(5, $result);
         }
+
+        function testForWordSpaceRepeatCounter()
+        {
+            $test_for_space = new RepeatCounter;
+            $input_with_space = "I want lots of words";
+            $input_string = "I've just got all the things to say, ya know?";
+            $result = $test_for_space->countRepeats($input_with_space, $input_string);
+
+            $this->assertEquals("true", $result);
+        }
     }
 ?>

@@ -4,6 +4,11 @@
         function countRepeats($input, $input_string)
         {
             $input = strtolower($input);
+            $space = " ";
+            $input_with_space = strpos($input, $space);
+            if ($input_with_space == true) {
+                return "true";
+            } else {
             $input_string = strtolower($input_string);
             $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
             foreach($characters_to_split_on as $space){
@@ -20,7 +25,7 @@
             return $count;
         }
     }
-
+}
 
 
 
