@@ -9,25 +9,25 @@
             if ($input_with_space == true) {
                 return "Hey there, we said you could check ONE word. Please try following directions better.";
             } else {
-            $input_string = strtolower($input_string);
-            $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
-            foreach($characters_to_split_on as $space){
-                $input_string = str_replace($space," ",$input_string);
-            }
-            $split_input_string = explode(" ", $input_string);
-
-            $count = 0;
-            foreach ($split_input_string as $word) {
-                if ($input == $word) {
-                    $count = ++$count;
+                $input_string = strtolower($input_string);
+                $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
+                foreach($characters_to_split_on as $space){
+                    $input_string = str_replace($space," ",$input_string);
                 }
+                $split_input_string = explode(" ", $input_string);
+
+                $count = 0;
+                foreach ($split_input_string as $word) {
+                    if ($input == $word) {
+                        $count = ++$count;
+                    }
+                }
+                if ($count == 1) {
+                    return "Congrats, you only said that word " . $count . " time... You must have quite an extensive vocabulary.";
+                } else
+                    return "Yo yo yo, you said that " . $count . " times... Must be your lucky number.";
+
             }
-            return "Yo yo yo, you said " . $count . " times... Must be your lucky number.";
         }
     }
-}
-
-
-
-
  ?>
