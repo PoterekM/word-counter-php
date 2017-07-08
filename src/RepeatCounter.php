@@ -7,7 +7,7 @@
             $space = " ";
             $input_with_space = strpos($input, $space);
             if ($input_with_space == true) {
-                return "true";
+                return "Hey there, we said you could check ONE word. Please try following directions better.";
             } else {
             $input_string = strtolower($input_string);
             $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
@@ -22,7 +22,7 @@
                     $count = ++$count;
                 }
             }
-            return $count;
+            return "Yo yo yo, you said " . $count . " times... Must be your lucky number.";
         }
     }
 }
