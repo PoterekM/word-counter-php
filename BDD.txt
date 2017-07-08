@@ -4,13 +4,14 @@
     Input string: "hat"
     Count: 1
 
-    Reason: It's one of the most basic components and guidelines to the MVP. I know I want my program to return a number at the very end so if I do this I won't have to mess with mixing result data types or pushing to an array or counting over an array or a string. I'm not the sharpest and keeping track of adding over an array vs a string frightens and confuses me a bit. It would be more to keep track of so if I can get my program counting out of the way first that would be neat.
+    Reason: It's one of the most basic components and guidelines to the MVP. I know I want my program to return a number at the very end so if I start with counting I won't have to mess with mixing result data types, pushing to an array, or counting over an array vs a string. I'm not the sharpest and keeping track of adding over an array vs a string frightens and confuses me a bit. If I can get my program to count out of the way first that would be heckin' neat.
+    (Also, there's no reason to test on a more simple component that one letter matches another- that could imply that I would want to split via letter.)
 
 * Program will return 0 if words are not equal.
     Word to find: "kumbaya"
     Input string: "bananas"
     Count: 0
-    Reason: making sure that program is not counting based on string length.
+    Reason: making sure that program is not counting based on string length (7 vs 7).
 
 ---Program recognizes when word matches another word in a string---
 * Program counts each time the word to find matches the input string.
@@ -18,13 +19,13 @@
     Input string: "The blue sky makes me blue"
     Count: 2
 
-    Reason: One of the most basic rules of the program. This will have me split the second user input based on spaces..
+    Reason: One of the most basic rules of the program. This will have me split the second user input (a phrase) based on spaces.
 
 ---Program does not count partial matches---
     Word to find: "blue"
     Input string: "I had a dream that my dog was playing the blues and then tried eating a blueberry."
     Count: 0
-    Reason: this is more a supplementary test to the test above. If the word is not split on a space (or as we will see later, common punctuation) it will not be recognized as being equal to input word.
+    Reason: This is more of a supplementary test to the test above. If the word is not split on a space (or as we will see later, common punctuation) it will not be recognized as being equal to input word.
 
 --- Program is able to recognize a match regardless of capitalization.---
     Word to find: "mold"
@@ -43,4 +44,4 @@
     Word to find: " "
     Input String: " "
     Output: (notification on page that field is required)
-    Reason: For all of the rebels who like to try to muck up the rules, they will be thwarted by the page not allowing them to continue.
+    Reason: For all of the rebels who like to try to muck up the rules they will be thwarted by the page not allowing them to continue.
