@@ -60,7 +60,7 @@
             $input_string = "I've just got all the things to say, ya know?";
             $result = $test_for_space->countRepeats($input_with_space, $input_string);
 
-            $this->assertEquals("true", $result);
+            $this->assertEquals("Hey there, we said you could check ONE word. Unfortunately, 'i want lots of words' is more than one word. Please try following directions better.", $result);
         }
     }
 ?>
