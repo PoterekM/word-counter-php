@@ -7,7 +7,7 @@
             $space = " ";
             $input_with_space = strpos($input, $space);
             if ($input_with_space == true) {
-                return "Hey there, we said you could check ONE word. Please try following directions better.";
+                return "Hey there, we said you could check ONE word. Unfortunately, '" . $input . "' is more than one word. Please try following directions better.";
             } else {
                 $input_string = strtolower($input_string);
                 $characters_to_split_on = array(' ', '#', '.', ',', '!', '', '?', ';', ':', '#', '()', '&');
