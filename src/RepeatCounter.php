@@ -22,11 +22,7 @@
                         $count = ++$count;
                     }
                 }
-                if ($count == 1) {
-                    return "Congrats, you only said " . $input . " " . $count . " time... You must have quite an extensive vocabulary.";
-                } else
-                    return "Yo yo yo, you said " . $input . " " . $count . " times... Must be your lucky number.";
-
+                return $count;
             }
         }
     }
