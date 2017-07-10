@@ -45,3 +45,9 @@
     Input String: " "
     Output: (notification on page that field is required)
     Reason: For all of the rebels who like to try to muck up the rules they will be thwarted by the page not allowing them to continue.
+
+--- Program will recognize when more than one word is input for the word to find ---
+    Word to find: "Everything is beautiful"
+    Input string: "Everything is beautiful and nothing hurts."
+    Output: "We told you you could only check one word."
+    Reason: Program will not work as expected otherwise. Program can force a user to input a word but it is more difficult to force them to enter one word.

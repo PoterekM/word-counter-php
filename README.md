@@ -11,7 +11,7 @@ _This project allows a user to find out how frequently a word of choice appears 
 
 #### Specifications and Behavior Driven Development
 
-  ![Minion-ified Behavior Driven Development](img/BDD-1.png)
+  ![Minion-ified Behavior Driven Development](img/BDD-2.png)
 
 _If you're curious to read more about my reasoning behind why I chose these tests, feel free to read this text file: https://github.com/PoterekM/word-counter-php/blob/master/BDD.txt_
 
